@@ -67,6 +67,7 @@
 		CB24789928FE8B3900047330 /* sauna watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sauna watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB24789D28FE8B3900047330 /* sauna_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sauna_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		CB24789F28FE8B3900047330 /* sauna_watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sauna_watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB2478B128FE9A1100047330 /* sauna watch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "sauna watch Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 		CB24788128FE8B3800047330 /* sauna watch Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				CB2478B128FE9A1100047330 /* sauna watch Watch App.entitlements */,
 				CB24788228FE8B3800047330 /* sauna_watchApp.swift */,
 				CB24788428FE8B3800047330 /* ContentView.swift */,
 				CB24788628FE8B3900047330 /* Assets.xcassets */,
@@ -466,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "sauna watch Watch App/sauna watch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sauna watch Watch App/Preview Content\"";
@@ -495,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "sauna watch Watch App/sauna watch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sauna watch Watch App/Preview Content\"";
